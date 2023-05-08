@@ -12,7 +12,7 @@ const NavBar = () => {
             {/* left div */}
             <div className='flex items-center m-4'>
                 <Link to={'/'}>
-                    <img className='h-[35px] w-[100px] m-2' src={"../images/amazon.png"} alt="" />
+                    <img className='h-[35px] w-[100px] m-2' src={process.env.PUBLIC_URL+"../images/amazon.png"} alt="" />
                 </Link>
                 <div className='pr-4 pl-4'>
                     <div className='text-xs xl:text-sm'>Deliver to</div>
